@@ -1,6 +1,6 @@
-import React from 'react'
-import Background from './components/Background'
-import Foreground from './components/foreground'
+import React from "react";
+import Background from "./components/Background";
+import Foreground from "./components/Foreground";
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Foreground />
       <Background />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
